@@ -1,0 +1,98 @@
+*{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: linear-gradient(45deg, rgb(100, 243, 243), rgb(100, 236, 100));
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.718);
+    width: 35%;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+}
+#inp{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 70%;
+}
+#btn{
+    margin: 10px;
+    background: none;
+    background-color: rgb(240, 235, 235);
+    color: black;
+    border: 1px solid rgb(199, 196, 196);
+    border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: 600;
+}
+.task-box{
+    width: 92%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 9px;
+    border: 2px solid rgb(171, 171, 247);
+    background-color: rgba(187, 187, 227, 0.766);
+    border-radius: 10px;
+}
+.task{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.del{
+    padding: 8px 18px;
+    background:none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: cursive;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+#rem{
+    width: 20%;
+    align-self: center;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid rgb(166, 166, 230);
+    border-radius: 10px;
+    background-color: rgb(149, 243, 243);
+
+}
